@@ -1,0 +1,1 @@
+Para correr los archivos de la actividad, se debe usar el nodemon.json y en la parte de "exec": "npx ts-node ./src/tarea15.ts" se debe reemplazar el tarea15 por cada una de las actividades por separado
