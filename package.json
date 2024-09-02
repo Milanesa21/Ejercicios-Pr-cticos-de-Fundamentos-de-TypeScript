@@ -1,0 +1,21 @@
+{
+  "name": "fundamentos_typescript",
+  "version": "1.0.0",
+  "main": "tarea1.ts",
+  "scripts": {
+   "dev": "nodemon",
+"build": "rimraf ./dist && tsc",
+"start": "npm run build && node dist/tarea1.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.5.2",
+    "nodemon": "^3.1.4",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
